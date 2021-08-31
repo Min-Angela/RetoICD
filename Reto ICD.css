@@ -1,0 +1,179 @@
+*{font-family: fantasy;}
+
+
+/*SECCIÓN DE CABECERA*/
+
+
+.cabecera{background-image: url("Mcdonals.jpg");
+margin: 1px;
+padding: 10px;
+margin-bottom: 5px;
+border: 5px solid black;
+border-radius: 10px;
+border-left: 5px solid orange;
+margin-right: 17px;
+display: flex;}
+
+.logo{float: left;
+width: 85px;
+height: 85px;}
+
+.logo:hover{transform: scale(1.3);}
+.McDonals:hover{transform: scale(1.3);}
+
+.McDonals{color: white;
+font-weight: 700;
+text-shadow: 0px 0px 15px white;
+padding-left: 20px;
+font-size: 30px;
+padding-top: 0px;}
+
+
+/*SECCIÓN DE CONTENIDO*/
+
+
+.informacion{margin: 1px;
+padding: 10px;
+margin-bottom: 15px;
+margin-left: 10px;
+border: 5px solid black;
+border-radius: 10px;
+border-left: 5px solid orange;
+width: 877px;
+height: 2855px;
+float: left;
+background-repeat: no-repeat;
+display: block;}
+
+.div{width: 870px;
+display: block;
+float: left;
+border: 2px solid gray;
+border-radius: 30px;
+box-shadow: 0px 0px 5px 2px gray;
+margin-bottom: 15px;
+background-image: url("Mcdonals fondo.jpg");}
+
+.informacion img{width: 220px;
+height: 220px;
+padding: 50px;
+display: inline-block;}
+
+.informacion img:hover{width: 230px;
+height: 230px;
+transform: scale(1.3);}
+
+.informacion a{font-size: 50px;
+padding: 20px;
+text-decoration: none;
+color: rgb(43, 43, 43);
+display: inline-block;}
+
+.nombre:hover{color: orange;
+font-size: 60px;}
+
+
+/*MENÚ DESPLEGABLE VERTICAL*/
+
+
+.contenedor{width: 405px;
+display: flex;
+background-color: white;
+border: 5px solid black;
+border-left: 5px solid orange;
+border-radius: 10px;
+display: block;
+float: left;}
+
+h1{font-weight: 100;
+text-align: center;
+width: inherit;
+font-size: 40px;
+color: rgb(43, 43, 43);
+padding-top: 20px;}
+
+.h1{font-weight: 100;
+text-align: center;
+width: inherit;
+font-size: 40px;
+color: rgb(43, 43, 43);
+padding-top: 0px;}
+
+h2{font-weight: 100;
+text-align: center;
+width: inherit;
+font-size: 30px;
+color: rgb(43, 43, 43);}
+
+p{padding: 20px;
+padding-top: 10px;
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: rgb(43, 43, 43);}
+
+hr{width: 320px;
+height: 20px;
+background-color: yellow;
+border: none;}
+
+ul{list-style: none;
+margin-top: 25px;
+width: 325px;
+margin-bottom: 50px;}
+
+.contenedor li a{text-decoration: none;
+color: black;
+display: inline-block;
+width: 270px;
+padding: 27px;
+font-size: 20px;
+background-color: rgba(235, 235, 235, 0.788);}
+
+.contenedor>li{float: left;}
+
+.contenedor li a:hover{background-color: rgba(255, 43, 43, 0.788);
+color: white;
+border-bottom: 2px solid gray;
+width: 280px;}
+.borde:hover{border-top: 2px solid gray;}
+
+.contenedor li ul{display: none;
+position: absolute;
+min-width: 325px;
+left: 347px;}
+
+.contenedor li ul li{position: relative;
+width: 100%}
+
+.contenedor li:hover>ul{display: block;}
+
+.contenedor li:hover>a{display: block;}
+
+.contenedor li ul li a{width: 200px;}
+
+.contenedor li:hover ul{display: block;}
+
+.submenu1{top: 211px;}
+
+/*PIECERA*/
+
+.div2{width: 1325px;
+display: block;
+float: left;
+border: 5px solid black;
+border-radius: 10px;
+border-left: 5px solid orange;
+margin-bottom: 15px;
+height: 90px;
+background-color: rgb(70, 70, 70);}
+
+.piecera{color: rgb(179, 179, 179);
+display: inline-block;
+font-size: 20px;
+padding-left: 27px;}
+
+.link{text-decoration: none;
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+padding-left: 500px;}
